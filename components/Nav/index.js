@@ -5,7 +5,7 @@ const Wrapper = styled.nav`
   padding: 15px;
   border-bottom: 1px solid #ddd;
   display: flex;
-  background: #387EF5;
+  background: #BAB86C;
 
   a {
     padding: 0 15px;
@@ -17,7 +17,7 @@ const Nav = () => (
   <Wrapper>
     <Link href='/'><a>Home</a></Link> |
     <Link href='/about' prefetch><a>About</a></Link> |
-   
+
   </Wrapper>
 )
 
